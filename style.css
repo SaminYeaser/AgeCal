@@ -1,5 +1,15 @@
+.header{
+    text-align: center;
+}
 .flex-box-conatiner-1{
     border: 1px solid black;
     display: flex;
     padding: 10px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.flex-box-conatiner-1 div{
+    padding: 10px;
+    display: flex;
+    align-items: center;
 }
